@@ -5,24 +5,24 @@ local generate = function ()
 	if vim.g.vscode_style == "dark" then
 		colors = {
 			vscNone = 'NONE',
-			vscFront = '#D4D4D4',
-			vscBack = '#1E1E1E',
+			vscFront = '#ecf2f2',
+			vscBack = '#15191f',
 
-			vscTabCurrent = '#1E1E1E',
-			vscTabOther = '#2D2D2D',
-			vscTabOutside = '#252526',
+			vscTabCurrent = '#15191f',
+			vscTabOther = '#1e222a',
+			vscTabOutside = '#282c34',
 
-			vscLeftDark = '#252526',
-			vscLeftMid = '#373737',
-			vscLeftLight = '#636369',
+			vscLeftDark = '#282c34',
+			vscLeftMid = '#32353d',
+			vscLeftLight = '#3d414f',
 
 			vscPopupFront = '#BBBBBB',
-			vscPopupBack = '#2D2D30',
-			vscPopupHighlightBlue = '#073655',
-			vscPopupHighlightGray = '#3D3D40',
+			vscPopupBack = '#2e3440',
+			vscPopupHighlightBlue = '#235677',
+			vscPopupHighlightGray = '#4c5c6b',
 
 			vscSplitLight = '#898989',
-			vscSplitDark = '#444444',
+			vscSplitDark = '#3b4252',
 			vscSplitThumb = '#424242',
 
 			vscCursorDarkDark = '#222222',
@@ -40,21 +40,21 @@ local generate = function ()
 			vscSearch = '#264F78',
 
 			-- Syntax colors
-			vscGray = '#808080',
-			vscViolet = '#646695',
-			vscBlue = '#569CD6',
+			vscGray = '#61656b',
+			vscViolet = '#af54ff',
+			vscBlue = '#33aeff',
 			vscDarkBlue = '#223E55',
 			vscLightBlue = '#9CDCFE',
-			vscGreen = '#6A9955',
+			vscGreen = '#1fe0a6',
 			vscBlueGreen = '#4EC9B0',
-			vscLightGreen = '#B5CEA8',
-			vscRed = '#F44747',
-			vscOrange = '#CE9178',
+			vscLightGreen = '#29edbe',
+			vscRed = '#ff598b',
+			vscOrange = '#ff889a',
 			vscLightRed = '#D16969',
 			vscYellowOrange = '#D7BA7D',
-			vscYellow = '#DCDCAA',
-			vscPink = '#C586C0',
-			vscUiBlue = '#0451A5',
+			vscYellow = '#ffc457',
+			vscPink = '#fc72ff',
+			vscUiBlue = '#3980cc',
 		}
 	else
 		colors = {
