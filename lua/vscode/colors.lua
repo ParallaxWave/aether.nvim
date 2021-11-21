@@ -25,7 +25,7 @@ local generate = function ()
 			vscSplitDark = '#3b4252',
 			vscSplitThumb = '#424242',
 
-			vscCursorDarkDark = '#282c34',
+			vscCursorDarkDark = '#1e222a',
 			vscCursorDark = '#51504F',
 			vscCursorLight = '#AEAFAD',
 			vscSelection = '#264F78',
@@ -52,7 +52,7 @@ local generate = function ()
 			vscOrange = '#ff889a',
 			vscLightRed = '#D16969',
 			vscYellowOrange = '#D7BA7D',
-			vscYellow = '#ffc457',
+			vscYellow = '#efe467',
 			vscPink = '#fc72ff',
 			vscUiBlue = '#3980cc',
 		}
